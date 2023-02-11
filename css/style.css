@@ -87,10 +87,21 @@ img {
 
 /* NEWS */
 #news {
-  background-image:url(../images/News.jpg);
+  background-image:url(../images/news-bg.jpg);
   height: 270px;
   margin-bottom: 40px;
 }
 #news .page-title {
   text-align: center;
+}
+
+/* フッター */
+footer {
+  background: #432;
+  text-align: center;
+  padding: 26px 0;
+}
+footer p {
+  color: #fff;
+  font-size: 0.875rem;
 }
