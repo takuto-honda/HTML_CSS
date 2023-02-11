@@ -45,6 +45,7 @@ img {
   display: flex;
   justify-content: space-between;
 }
+
 /* HOME */
 .home-content {
   text-align: center;
@@ -82,4 +83,14 @@ img {
 }
 #home .page-title {
   text-transform: none;
+}
+
+/* NEWS */
+#news {
+  background-image:url(../images/News.jpg);
+  height: 270px;
+  margin-bottom: 40px;
+}
+#news .page-title {
+  text-align: center;
 }
