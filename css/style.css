@@ -125,6 +125,46 @@ img {
   margin-bottom: 50px;
 }
 
+/* CONTACT */
+#contact {
+  background-image: url(../images/contact-bg.jpg);
+  min-height: 100vh;
+}
+
+/* フォーム */
+form div {
+  margin-bottom: 14px;
+}
+label {
+  font-size: 1.125rem;
+  margin-bottom: 10px;
+  display: block;
+}
+input[type=text],
+input[type=email],
+textarea {
+  background: rgba(255, 255, 255, .5);
+  border: 1px #fff solid;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+}
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  max-width: 240px;
+}
+textarea {
+  width: 100%;
+  max-width: 480px;
+  height: 6rem;
+}
+input[type="submit"] {
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+}
+
 /* フッター */
 footer {
   background: #432;
@@ -207,6 +247,26 @@ aside {
 .sub-menu a:hover {
   color: #0bd;
 }
+#location {
+  padding: 4% 0;
+}
+#location .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.location-info {
+  width: 22%;
+}
+.location-info p {
+  padding: 12px 10px;
+}
+.location-map {
+  width: 74%;
+}
+/* iframe */
+iframe {
+  width: 100%;
+}
 
 /* レスポンシブ */
 @media (max-width: 600px) {
@@ -273,5 +333,15 @@ aside {
   /* メニュー */
   .menu-content {
     margin-top: 20px;
+  }
+  /* CONTACT */
+  #contact .page-title {
+    margin-top: 400px;
+  }
+  /* フォーム */
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    max-width: 100%;
   }
 }
